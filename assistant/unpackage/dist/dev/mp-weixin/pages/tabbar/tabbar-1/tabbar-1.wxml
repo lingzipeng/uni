@@ -1,1 +1,1 @@
-<view class="content"> 页面 - 1=你好 </view>
+<view class="content"><view>{{a}}</view><button bindtap="{{b}}">点击</button><text>总数{{c}}</text><view wx:for="{{d}}" wx:for-item="item" wx:key="c"><view>{{item.a}}</view><view>{{item.b}}</view></view></view>
